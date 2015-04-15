@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        Alamofire.request(.GET, "http://www.dafastory.com")
+        Alamofire.request(.GET, "http://www.google.com")
             .responseString { (_, _, string, _) in
                 println(string)
         }
